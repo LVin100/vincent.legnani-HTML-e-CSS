@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="it">
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css"/>
+        <title>Contattami</title>
+        <link rel="icon" type="x-icon" href="../images/logo-lv.jpg" >
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header class="speaker-form-header">
+            <h1>Contattami</h1>
+            <p><em>Vuoi contattarmi? compila il modulo qui sotto!</em></p>
+        </header>
+
+        
+        <form action="" method="get" class="speaker-form">
+
+            <div class="form-row">
+                <label for="full-name">Nome</label>
+                <input id="full-name" type="text"/>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email"
+                placeholder="mario.rossi@esempio.com"/>
+            </div>
+
+            <fieldset class="legacy-form-row">
+                <legend>Per cosa vuoi contattarmi?</legend>
+                <input id="talk-type-1" name="talk-type" type="radio" value="offerta-lavoro"/>
+                <label for="talk-type-1" class="radio-label">Offerta di lavoro</label>
+                <input id="talk-type-2" name="talk-type" type="radio" value="consultazione"/>
+                <label for="talk-type-2" class="radio-label">Consultazione</label>
+            </fieldset>
+
+            <div class="form-row">
+                <label for="abstract"></label>
+                <textarea id="abstract" name="abstract" placeholder="descrivi brevemente di cosa vorresti parlarmi"></textarea>
+            </div>
+
+            <div class="form-row">
+                <label class="checkbbox-label" for="accetto"></label>
+                <input id="accettato" name="accettato" type="checkbox" value="accetta">
+                <span>accetto i <a href="../terms-conditions/index.html" class="link"> termini e le condizioni</a></span>
+            </div>
+            
+            <div class="form-row">
+                <button>Invia</button>
+            </div>
+            
+        </form>
+
+        <footer>
+
+        <nav class="index">
+            <h4>Indice</h4> 
+            <ul>
+                <li><a href="../skills/index.html" class="orange-links">Skills</a></li>
+                <li><a href="index.html" class="orange-links">Contattami</li>
+                <li><a href="../../index.html" class="orange-links">Home</a></li>
+            </ul>
+        </nav>
+
+        <div class="social">
+            <a href="https://www.instagram.com/vincent.legnani/">
+                <img src="../images/istagram-logo-t.jpg" width=50px; height=50px/>
+            </a>
+            <a href="https://www.linkedin.com/in/vincent-legnani/">
+                <img src="../images/linkedin-logo.jpg"width=50px; height=50px/>
+            </a>
+            <a href="https://github.com/LVin100">
+                <img src="../images/github-logo-v.png" width=50px; height=50px/>
+            </a>
+        </div>
+
+    </footer>
+        
+    </body>
+    
+</html>
