@@ -34,48 +34,18 @@ header {
 }
 
 .over-nav {
-    padding: 10%;
     text-align: center;
     font-size: 155%;
     color:  #194a50 ;
 }
 
 nav{
+
     display: flex;
     justify-content: flex-end;
     color:  #d37556 ;
 }
 
-.vertical {
-    border-left: 8px solid #e1dad2;
-    height: 80px;
-    position:fixed;
-    top: 40%;
-    left:5px;
-  border-radius:3px;
- }
-
-.features-menu li {
-    list-style: none;
-    font-size: 80%;
-}
-
-.vertical:hover .features-menu {
-    display:flex;
-    flex-direction: column;
-    background: #e1dad2;
-    border-top-right-radius:3px;
-    border-bottom-right-radius: 3px;
-    height:100%;
-    justify-content: space-evenly;
-    opacity: 1;
-    z-index:2;
-   
-}
-
-.features-menu {
-    display:none;
-}
 
 strong {
     color:	#7556d3;
@@ -84,7 +54,7 @@ strong {
     color: #d37556;
 }
    .contatti {
-    margin:5px 10px;
+    margin:0px 10px;
     text-decoration: none;
     color:#d37556;
 }
@@ -171,9 +141,7 @@ ul {
         font-size:larger;
         line-height: 1.1;   
     }
-.vertical {
-    visibility:hidden;
-}
+
 }
 
 
