@@ -36,19 +36,14 @@ body{
 header {
     width:100%;
     background-color: #e1dad2;
-    position: fixed; }
-
-.over-nav {
-  
-    text-align: center;
-    font-size: 155%;
-    color:  #194a50 ;
 }
 
 nav{
+    font-size: 24px;
     display: flex;
     justify-content: flex-end;
     color:  #d37556 ;
+    
 }
 .contatti {
     margin:0px 10px;
