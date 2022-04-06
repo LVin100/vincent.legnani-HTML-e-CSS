@@ -10,7 +10,6 @@
 }
 ::-webkit-scrollbar-thumb {
     background: #e1dad2;
-    
     border-radius:3px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -83,19 +82,16 @@ strong {
 .features-links {
     color: #d37556;
 }
-  .skills,
    .contatti {
     margin:5px 10px;
     text-decoration: none;
     color:#d37556;
 }
 .features-links:hover,
-.skills:hover,
 .contatti:hover{
     color:#bd694d;
 }
 .features-links:active,
-.skills:active,
 .contatti:active{
     color:#93513c;
 }
@@ -110,9 +106,7 @@ strong {
 .links:active{
     color:#8ca4a7;
 }
-.piacere-di-conoscerti, .chi-sono, .istruzione, .i-miei-valori{
-    border-bottom: 1px solid #d37556;
-}
+
 footer {
     background-color: #194a50;
     display:flex;
@@ -152,6 +146,24 @@ ul {
     list-style-type: none;
 }
 
+.skill-page-area {
+    background-color: #466e72;
+    border: 1px solid none;
+    border-radius:3px;
+    color: #e1dad2;
+
+    width: 60%;
+    padding: 50px;
+    margin:auto;
+    margin-bottom: 1px;
+    
+ }
+
+
+
+
+
+
 /*smartphone*/
 @media only screen and (max-width:576px) {
     body {
@@ -161,86 +173,6 @@ ul {
 .vertical {
     visibility:hidden;
 }
-    .piacere-di-conoscerti h1{
-        width:100%;
-        
-        text-align: center;
-        
-    }
-    .content-piacere-di-conoscerti{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-    }
-    .content-piacere-di-conoscerti img {
-        order:2;
-        width:150px;
-        height: 150px;
-    }
-    .content-piacere-di-conoscerti article {
-        text-align: center;
-        margin-top: 2%;
-    }
-
-.chi-sono h2{
-   width:100%;
- 
-  text-align: center;
-}
-.content-chi-sono {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.content-chi-sono img{
-    width: 150px;
-    height: 150px;
-
-}
-.content-chi-sono article {
-    text-align: center;
-    margin-top: 2%;
-}
-
-.istruzione h2{
-    width:100%;
-    
-    text-align: center;
-}
-.content-istruzione{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.content-istruzione img {
-    order:2;
-    width:150px;
-    height: 150px;
-}
-.content-istruzione article {
-    text-align: center;
-    margin-top: 2%;
-}
-.i-miei-valori h2{
-    width:100%;
-  
-   text-align: center;
- }
- .content-i-miei-valori {
-     display:flex;
-     flex-direction: column;
-     align-items: center;
- }
- .content-i-miei-valori img{
-     width: 150px;
-     height: 150px;
- 
- }
- .content-i-miei-valori article {
-     text-align: center;
-     margin-top: 2%;
- }
 }
 
 
@@ -253,90 +185,7 @@ ul {
         line-height: 1.3;
     }
    
-    .piacere-di-conoserti{
-        padding: 5px;
-    }
-    .piacere-di-conoscerti h1{
-       width:100%;
-     
-      text-align: center;
-    }
-    .content-piacere-di-conoscerti {
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .content-piacere-di-conoscerti img{
-        width: 175px;
-        height: 175px;
-    margin: 5% 0px;
-    }
-    .content-piacere-di-conoscerti article {
-        width:50%;
-    }
-
-
-    .chi-sono{
-        padding:2%;
-    }
-    .chi-sono h2{
-        width:100%;
-     
-       text-align: center;
-     }
-     .content-chi-sono {
-         display:flex;
-         flex-direction: row;
-         align-items: center;
-         justify-content: space-around;
-     }
-     .content-chi-sono img{
-         width: 175px;
-         height: 175px;
-     margin: 5% 0px;
-     }
-     .content-chi-sono article {
-         width:60%;
-     }
-
-     .istruzione {
-        padding:2%;
-     }
-     .istruzione h2{
-        width:100%;
-       text-align: center;
-     }
-  
-     .content-istruzione img{
-         float:left;
-         width: 175px;
-         height: 175px;
-     margin: 3%;
-     }
-    
-     .i-miei-valori{
-       padding:2%;;
-    }
-    .i-miei-valori h2{
-        width:100%;
-       
-       text-align: center;
-     }
-     .content-i-miei-valori {
-         display:flex;
-         flex-direction: row;
-         align-items: center;
-         justify-content: space-around;
-     }
-     .content-i-miei-valori img{
-         width: 175px;
-         height: 175px;
-     margin: 5% 0px;
-     }
-     .content-i-miei-valori article {
-         width:60%;
-     }
+   
     
 }
 
@@ -351,78 +200,5 @@ ul {
         line-height: 1.5;
        
     }
-    .piacere-di-conoscerti {
-        padding:2%;
-    }
-    .piacere-di-conoscerti h1{
-       text-align: center;
-       width:100%;
-    }
-    .content-piacere-di-conoscerti {
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .content-piacere-di-conoscerti img{
-    margin: 10%;
-    }
-    .content-piacere-di-conoscerti article {
-        width:50%;
-    }
-
-    .chi-sono {
-        padding:2%;
-    }
-    .chi-sono h2{
-        text-align: center;
-        width:100%;
-     }
-     .content-chi-sono {
-         display:flex;
-         flex-direction: row;
-         align-items: center;
-         justify-content: space-around;
-     }
-     .content-chi-sono img{
-         
-     margin: 10%;
-     }
-     .content-chi-sono article {
-         width:50%;
-     }
-
-     .istruzione {
-        padding: 3%;  
-     }
-     .istruzione h2{
-        text-align: center;
-        width:100%;
-     }
     
-     .content-istruzione img{
-         float:left;
-        margin: 5%;
-        line-height: 1.6;
-     }
-
-    .i-miei-valori {
-        padding: 2%;
-    }
-    .i-miei-valori h2{
-        text-align: center;
-        width:100%;
-     }
-     .content-i-miei-valori {
-         display:flex;
-         flex-direction: row;
-         align-items: center;
-         justify-content: space-around;
-     }
-     .content-i-miei-valori img{
-     margin: 10%;
-     }
-     .content-i-miei-valori article {
-         width:50%;
-     }
 }

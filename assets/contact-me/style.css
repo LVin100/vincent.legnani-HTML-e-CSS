@@ -33,6 +33,35 @@ body{
     align-items:center;
 }
 
+header {
+    width:100%;
+    background-color: #e1dad2;
+}
+
+.over-nav {
+    padding: 10%;
+    text-align: center;
+    font-size: 155%;
+    color:  #194a50 ;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    color:  #d37556 ;
+}
+.contatti {
+    margin:5px 10px;
+    text-decoration: none;
+    color:#d37556;
+}
+.contatti:hover{
+    color:#bd694d;
+}
+.contatti:active{
+    color:#93513c;
+}
+
 .speaker-form-header {
     text-align:center;
     width:100%;
